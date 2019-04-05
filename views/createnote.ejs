@@ -1,0 +1,12 @@
+<% include partials/head %>
+<% include partials/header %>
+<form class="" action="/notes" method="post">
+  <input type="text" name="author" value="" placeholder="Author Name">
+  <input type="text" name="topic" value="" placeholder="Topic Name">
+  <label for="note">Write about your day</label>
+  <textarea id="note" name="note" rows="5" cols="33">
+  What's on your mind?
+  </textarea>
+  <button type="submit">Submit</button>
+</form>
+<% include partials/footer %>

@@ -1,18 +1,23 @@
 {
-  "name": "todolistexpress",
+  "name": "crud-express-mongo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "mongodb": "^3.2.2",
-    "path": "^0.12.7"
+    "assert": "^1.4.1",
+    "body-parser": "^1.14.2",
+    "bson": ">=1.0.5",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "mongodb": "^2.2.36"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }

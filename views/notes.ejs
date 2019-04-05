@@ -1,0 +1,24 @@
+<% include partials/head %>
+<% include partials/header %>
+<section>
+  Notes
+  <ul class="notes">
+  <% for(var i=0; i < notes.length; i++) {%>
+    <li class="note">
+      <span><%= notes[i].author %></span>
+      <span><%= notes[i].topic %></span>
+      <span><%= notes[i].note %></span>
+    </li>
+  <% } %>
+  </ul>
+  <p>
+    <%= random %>
+  </p>
+  <h2>
+    <%= status %>
+  </h2>
+  <h4>
+    <%= location %>
+  </h4>
+</section>
+<% include partials/footer %>
